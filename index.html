@@ -4,18 +4,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Nein zur Bürokratie-Monster-Initiative | Abstimmung Wetzikon, 27. September 2026</title>
-<meta name="description" content="Für jedes Strassenschild eine Volksabstimmung? Nein zur Initiative «Mitbestimmen bei Temporeduktionen». Argumente, Fakten und Material zur Abstimmung vom 27. September 2026 in Wetzikon.">
+<meta name="description" content="Stopp dem Bürokratie-Monster: Nein zur Initiative «Mitbestimmen bei Temporeduktionen». Fakten und Argumente zur Abstimmung vom 27. September 2026 in Wetzikon.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Nein zur Bürokratie-Monster-Initiative">
-<meta property="og:description" content="Für jedes Strassenschild eine Volksabstimmung? Nein. Abstimmung vom 27. September 2026 in Wetzikon.">
+<meta property="og:description" content="Stopp dem Bürokratie-Monster. Abstimmung vom 27. September 2026 in Wetzikon.">
 <meta property="og:url" content="https://wetzikontempo30.ch/">
 <meta property="og:image" content="https://wetzikontempo30.ch/monster.png">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23E2001A'/%3E%3Ccircle cx='50' cy='50' r='34' fill='white'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23C1121F'/%3E%3Ccircle cx='50' cy='50' r='34' fill='%23FAF7F1'/%3E%3C/svg%3E">
 <style>
   :root{
-    --red:#E2001A; --ink:#1A1A1A; --warm:#EDEAE3; --paper:#fff; --grey:#5A5A5A;
-    --w:680px;
+    --red:#C1121F; --ink:#232323; --grey:#6B675F;
+    --paper:#FAF7F1; --panel:#F1EDE3;
+    --w:660px;
   }
   *{margin:0;padding:0;box-sizing:border-box}
   html{scroll-behavior:smooth}
@@ -27,75 +28,77 @@
     -webkit-font-smoothing:antialiased;
   }
   a{color:var(--ink)}
-  a:focus-visible,button:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+  a:focus-visible{outline:3px solid var(--red);outline-offset:3px}
   .wrap{max-width:var(--w);margin:0 auto;padding:0 22px}
+  .caps{
+    text-transform:uppercase;letter-spacing:.15em;font-size:12.5px;
+    font-weight:700;color:var(--grey);
+  }
 
   /* Hero */
-  .hero{text-align:center;padding:52px 22px 50px}
-  .hero h1{line-height:1}
+  .hero{text-align:center;padding:52px 22px 48px}
+  .hero .caps{display:block;margin-bottom:24px}
   .stopp{
     display:block;color:var(--red);font-weight:800;
-    font-size:clamp(72px,19vw,168px);line-height:.88;letter-spacing:-.02em;
+    font-size:clamp(70px,18vw,160px);line-height:.88;letter-spacing:-.02em;
   }
   .stopp-sub{
     display:block;font-weight:800;text-transform:uppercase;
-    font-size:clamp(23px,5.9vw,52px);letter-spacing:-.005em;margin-top:8px;
+    font-size:clamp(22px,5.7vw,50px);letter-spacing:-.005em;margin-top:8px;
   }
-  .monster{width:min(560px,88vw);height:auto;display:block;margin:34px auto 30px}
+  .monster{width:min(540px,88vw);height:auto;display:block;margin:32px auto 28px}
   .nein-row{
     display:flex;justify-content:center;align-items:center;
     gap:16px;flex-wrap:wrap;
   }
-  .nein-big{font-weight:800;font-size:clamp(52px,11vw,88px);line-height:.9;letter-spacing:-.02em}
+  .nein-big{font-weight:800;font-size:clamp(48px,10vw,80px);line-height:.9;letter-spacing:-.02em}
   .nein-rest{
     text-align:left;font-weight:800;text-transform:uppercase;
-    font-size:clamp(17px,3.7vw,30px);line-height:1.08;letter-spacing:.015em;
+    font-size:clamp(16px,3.5vw,27px);line-height:1.1;letter-spacing:.015em;
   }
-  .sub{color:var(--grey);font-size:15px;margin-top:18px}
+  .sub{color:var(--grey);font-size:15px;margin-top:16px}
   .date{
     color:var(--red);font-weight:800;text-transform:uppercase;
-    letter-spacing:.03em;font-size:clamp(17px,3.4vw,23px);margin-top:10px;
+    letter-spacing:.03em;font-size:clamp(16px,3.2vw,21px);margin-top:10px;
   }
 
   /* Sections */
-  section{padding:44px 0}
-  .rule{width:44px;height:4px;background:var(--red);margin-bottom:16px}
+  section{padding:40px 0}
   h2{font-size:clamp(22px,3.4vw,28px);font-weight:800;letter-spacing:-.01em;margin-bottom:14px}
   p+p{margin-top:12px}
 
-  .grund{display:grid;grid-template-columns:34px 1fr;gap:0 14px;margin-top:26px}
-  .grund .nr{color:var(--red);font-weight:800;font-size:22px;line-height:1.35}
+  .grund{display:grid;grid-template-columns:40px 1fr;gap:0 14px;margin-top:26px}
+  .nr{
+    width:30px;height:30px;border:1.5px solid var(--ink);border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    font-weight:800;font-size:15px;margin-top:2px;
+  }
   .grund h3{font-size:18px;font-weight:700;margin-bottom:4px}
 
   /* Empfehlung */
-  .box{background:var(--warm);border-radius:12px;padding:28px 26px}
-  .box h2{margin-bottom:18px}
+  .box{background:var(--panel);border-radius:10px;padding:28px 26px}
+  .box h2{margin-bottom:16px}
   .row{
     display:flex;justify-content:space-between;align-items:baseline;gap:16px;
-    padding:12px 0;border-bottom:1px solid #d8d4ca;
+    padding:9px 0;
   }
-  .row:last-of-type{border-bottom:0}
   .row .label{font-size:15.5px}
-  .row .val{font-weight:800;font-size:22px;white-space:nowrap}
-  .row .val.nein{color:var(--red);font-size:26px}
+  .row .val{font-weight:800;font-size:21px;white-space:nowrap}
+  .row .val.nein{color:var(--red);font-size:25px}
   .stich{color:var(--grey);font-size:14px;margin-top:14px}
 
-  /* Downloads */
+  /* Download */
   .dl{display:grid;grid-template-columns:180px 1fr;gap:28px;align-items:start;margin-top:22px}
-  .dl img{width:100%;height:auto;border:1px solid #e3e0d8;border-radius:6px}
-  .btns{display:flex;flex-direction:column;gap:12px}
+  .dl img{width:100%;height:auto}
   .btn{
     display:block;text-align:center;text-decoration:none;font-weight:700;
-    padding:13px 18px;border-radius:8px;font-size:16px;
+    padding:14px 18px;font-size:16px;border-radius:8px;
+    background:var(--ink);color:var(--paper);
   }
-  .btn.primary{background:var(--red);color:#fff}
-  .btn.primary:hover{background:#c40016}
-  .btn.ghost{border:2px solid var(--ink);color:var(--ink)}
-  .btn.ghost:hover{background:var(--ink);color:#fff}
-  .btns small{color:var(--grey);font-size:13px;text-align:center}
+  .btn:hover{background:#000}
 
   footer{
-    margin-top:30px;padding:34px 22px 44px;border-top:4px solid var(--red);
+    margin-top:24px;padding:30px 22px 42px;
     text-align:center;font-size:14px;color:var(--grey);
   }
   footer b{color:var(--ink)}
@@ -103,7 +106,7 @@
 
   @media (max-width:560px){
     .dl{grid-template-columns:1fr}
-    .dl img{max-width:220px}
+    .dl img{max-width:200px}
     .row{flex-direction:column;gap:2px;align-items:flex-start}
   }
 </style>
@@ -111,6 +114,7 @@
 <body>
 
 <header class="hero">
+  <span class="caps">Abstimmung vom 27. September 2026</span>
   <h1>
     <span class="stopp">STOPP</span>
     <span class="stopp-sub">Bürokratie-Monster!</span>
@@ -124,13 +128,12 @@
     <span class="nein-rest">zur Bürokratie-<br>Monster-Initiative</span>
   </p>
   <p class="sub">Volksinitiative «Mitbestimmen bei Temporeduktionen»</p>
-  <p class="date">Am 27. September in Wetzikon</p>
+  <p class="date">Am 27. September an der Urne in Wetzikon</p>
 </header>
 
 <main class="wrap">
 
   <section id="worum">
-    <div class="rule"></div>
     <h2>Worum es geht</h2>
     <p>Die Volksinitiative «Mitbestimmen bei Temporeduktionen» verlangt eine Änderung der Gemeindeordnung. Heute entscheidet der Stadtrat, ob bei der Kantonspolizei ein Antrag für dauerhafte Temporeduktionen wie Tempo 30 auf Gemeindestrassen gestellt wird. Neu soll das Parlament darüber beschliessen, und jeder dieser Beschlüsse soll dem fakultativen Referendum unterstehen. Wird das Referendum ergriffen, kommt es zur Urnenabstimmung über die einzelne Temporeduktion. Befristete Massnahmen, etwa bei Baustellen oder Veranstaltungen, sind nicht betroffen.</p>
     <p>Der endgültige Entscheid fällt ohnehin nicht in Wetzikon: Den Antrag kann nur eine Gemeindebehörde einreichen, und über die Temporeduktion entscheidet abschliessend die Kantonspolizei.</p>
@@ -138,7 +141,6 @@
   </section>
 
   <section id="gruende">
-    <div class="rule"></div>
     <h2>Drei Gründe fürs Nein</h2>
 
     <article class="grund">
@@ -182,14 +184,12 @@
   </section>
 
   <section id="material">
-    <div class="rule"></div>
     <h2>Flyer zum Herunterladen</h2>
     <p>Der Kampagnenflyer steht allen zur Verfügung, die das Nein unterstützen.</p>
     <div class="dl">
-      <img src="flyer_vorschau.png" alt="Vorderseite des Abstimmungsflyers mit dem NEIN-Schild" width="500" height="708" loading="lazy">
+      <img src="flyer_vorschau.png" alt="Vorderseite des Abstimmungsflyers" width="500" height="708" loading="lazy">
       <div class="btns">
-        <a class="btn primary" href="flyer_a5_nein_buerokratiemonster.pdf" download>Flyer herunterladen (PDF)</a>
-        <small>Frei verwendbar für Standaktionen und zum Weitergeben.</small>
+        <a class="btn" href="flyer_a5_nein_buerokratiemonster.pdf" download>Flyer herunterladen (PDF)</a>
       </div>
     </div>
   </section>
